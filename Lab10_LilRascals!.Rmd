@@ -1,0 +1,25 @@
+---
+title: "Lab10LilRascals"
+author: "Lil Rascals"
+date: "March 19, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(dplyr)
+library(lubridate)
+library(stringr)
+```
+### Individual Kelsey McKenna
+```{r}
+library(tidyverse)
+library(dplyr)
+library(lubridate)
+library(stringr)
+stations <- read_csv("Nice_Ride_2017_Station_Locations.csv")
+
+seasons <- read_csv("Nice_ride_trip_history_2017_season.csv")
+
+```
