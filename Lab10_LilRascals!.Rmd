@@ -12,14 +12,18 @@ library(dplyr)
 library(lubridate)
 library(stringr)
 ```
-### Individual Kelsey McKenna
+### Individual
+Kelsey McKenna
 ```{r}
 library(tidyverse)
 library(dplyr)
 library(lubridate)
 library(stringr)
-stations <- read_csv("Nice_Ride_2017_Station_Locations.csv")
+Questions <- read_csv("Questions_trunc.csv")
 
-seasons <- read_csv("Nice_ride_trip_history_2017_season.csv")
+Answers <- read_csv("Answers_trunc.csv")
 
 ```
+### Team
+
+### Summary
